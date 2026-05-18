@@ -1,5 +1,60 @@
-body {
-    background-color: rgb(171, 112, 44);
+.Homepage {
+   position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:  url(https://img.freepik.com/free-vector/shiny-eid-al-adha-bakrid-festival-background-design_1017-38748.jpg);
+    background-size: cover;
+    background-position: center; /* Yahan se aap image ko jitna marzi light karna chahein kar sakte hain */ /* Is se image text ke peeche chali jayegi */
+}
+
+h1 {
+    text-align: center;
+    color: rgb(105, 66, 7);
+    text-decoration: underline;
+}
+
+h2 {
+    color: rgb(105, 66, 7);
+    text-decoration: underline;
+}
+
+p {
+    text-indent: 80px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    text-align: center;
+    background-color: rgb(189, 154, 58);
+    height: 30px;
+    border-radius: 40px;
+    padding-top: 10px;
+}
+
+li {
+    margin: 40px;
+    padding: 5px;
+    display: inline;
+    color: rgb(105, 66, 7);
+}
+
+.Donation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:  url(https://img.freepik.com/free-vector/shiny-eid-al-adha-bakrid-festival-background-design_1017-38748.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 ul {
@@ -7,8 +62,49 @@ ul {
 }
 
 li {
-    border: 1px solid black;
-    margin: 5px;
+    margin: 40px;
+    padding: 5px;
+    display: inline;
+}
+
+.Contactus {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:  url(https://img.freepik.com/free-vector/shiny-eid-al-adha-bakrid-festival-background-design_1017-38748.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    margin: 40px;
+    padding: 5px;
+    display: inline;
+}
+
+.About {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image:  url(https://img.freepik.com/free-vector/shiny-eid-al-adha-bakrid-festival-background-design_1017-38748.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    margin: 40px;
     padding: 5px;
     display: inline;
 }
